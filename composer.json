@@ -1,0 +1,22 @@
+{
+    "name": "malyusha/laravel-filterable",
+    "description": "Simple filters for Eloquent models",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Malyuk",
+            "email": "lovecoding@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.5",
+        "illuminate/database": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Malyusha\\Filterable\\": "src"
+        }
+    }
+}
