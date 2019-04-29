@@ -1,22 +1,38 @@
 {
-    "name": "malyusha/laravel-filterable",
-    "description": "Simple filters for Eloquent models",
-    "type": "package",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Igor Malyuk",
-            "email": "lovecoding@yandex.ru"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^5.5",
-        "illuminate/database": "5.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Malyusha\\Filterable\\": "src"
-        }
+  "name": "malyusha/laravel-filterable",
+  "description": "Simple filters for Eloquent models",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Malyuk",
+      "email": "lovecoding@yandex.ru"
     }
+  ],
+  "require": {
+    "php": "^7.0",
+    "illuminate/database": "5.5",
+    "illuminate/support": "^5.5"
+  },
+  "require-dev": {
+    "mockery/mockery": "1.2.*",
+    "phpunit/phpunit": "7.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Malyusha\\Filterable\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Malyusha\\Filterable\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

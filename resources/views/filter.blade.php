@@ -8,5 +8,5 @@ use Malyusha\Filterable\Filter as BaseFilter;
 
 class {{ $className }} extends BaseFilter
 {
-    protected static $model{{ $modelClass }};
+    protected $model{{ $modelClass }};
 }

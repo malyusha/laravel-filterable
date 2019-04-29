@@ -13,7 +13,7 @@ interface ColumnInterface
      * @param \Illuminate\Database\Eloquent\Builder $builder
      * @param mixed $value
      * @param array $filtered Already filtered classes
-     * @return \Illuminate\Database\Eloquent\Builder
+     * @return void
      */
     public static function apply(Builder $builder, $value, array $filtered = []);
 }

@@ -14,7 +14,7 @@ class {{ $column }} implements ColumnInterface
      * @param mixed $value
      * @param array $filtered already filtered columns
      *
-     * @return \Illuminate\Database\Eloquent\Builder
+     * @return void
      */
     public static function apply(Builder $builder, $value, array $filtered = [])
     {
