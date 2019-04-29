@@ -7,5 +7,3 @@ Simple data filters for Laravel's Eloquent Builder.
 `composer require malyusha/laravel-filterable`
 
 ## Usage
-
-...In progress...

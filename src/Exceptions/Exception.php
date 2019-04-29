@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Malyusha\Filterable\Exceptions;
 
 
